@@ -37,21 +37,6 @@ const Signup = () => {
             window.location = "/dashboard" 
          
           }
-//         //  const users =  axios.get('http://localhost:3000/api/users')
-// .then(response => {
-//   console.log(response);
-  
-
-// }
-// );
-                          // window.location = "/" 
-
-          // console.log(data)
-          // if(data.role==="client"){
-          //             window.location = "/" 
-          // } else{
-          //      window.location = "/signup" 
-          // }
       
           } catch (error) {
           if (error.response &&

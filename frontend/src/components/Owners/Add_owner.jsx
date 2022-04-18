@@ -66,7 +66,7 @@ function Add_owner() {
             placeholder="Password"
             name="password"
             onChange={handleChage}
-            value={set_addowners.password}
+            value={Add_owners.password}
             required className="form-control" id="inputPassword4" />
     </div>
   </div>

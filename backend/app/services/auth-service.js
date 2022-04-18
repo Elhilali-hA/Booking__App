@@ -3,7 +3,7 @@ import Tokenizer from '../modules/tokenizer/index.js';
 
 class AuthService {
   async isPasswordMatch(password, original) {
-    return await await bcrypt.compare(password, original);
+    return  await bcrypt.compare(password, original);
   }
 
   async changedPasswordAfter(passwordChangedAt, iat) {

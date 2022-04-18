@@ -52,9 +52,6 @@ const roomsSchema = new mongoose.Schema({
 });
 
 
-
-
-
   roomsSchema.virtual('reservation', {
     ref: 'Reservation',
     localField: '_id',

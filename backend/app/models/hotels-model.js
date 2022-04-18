@@ -55,8 +55,8 @@ hotelsSchema.virtual("rooms", {
         localField: "_id",
         foreignField: "hotelId",
     }),
-
-    hotelsSchema.set("toObject", { virtuals: true })
+    
+hotelsSchema.set("toObject", { virtuals: true })
 hotelsSchema.set("toJSON", { virtuals: true })
 
 hotelsSchema.plugin(arrayValidator);
